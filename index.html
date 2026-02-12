@@ -1,107 +1,124 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portofolio Sutradara - Mochamad Fariz Arkan Nugraha</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3H+J5wnEsIFIYdN4nwWqN6cRwHmzEFAYS/8PT7e2zeLxQEQC/hIBg7A8FXxMN8NxTUV5mzQYjVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <div id="splash-screen" class="splash-screen">
-            <div class="splash-content">
-                <h2>Mochamad Fariz Arkan Nugraha</h2>
-                <p>Sutradara Pementasan Teater</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochamad Fariz Arkan Nugraha - Sutradara</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"></div>
+
+    <header>
+        <div class="brand">Fariz Arkan Sulak.</div>
+        <div class="header-actions">
+            <a href="assets/CV Fariz Arkan.pdf" download class="btn-cv">Tentang Saya</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-wrapper">
+                <div class="hero-text">
+                    <span class="text-section">As a</span>
+                    <h1 class="text-huge">
+                        Theater<br>Stage<br>Director.
+                    </h1>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/IMG_7323.jpg" alt="Mochamad Fariz Arkan Nugraha">
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee">
+            <div class="marquee__content">
+                <span class="marquee__item">Artistic Vision — </span>
+                <span class="marquee__item">Emotional Depth — </span>
+                <span class="marquee__item">Stage Innovation — </span>
             </div>
         </div>
-        <header>
-            <div class="container header-inner">
-                <div class="profile">
-                    <img src="assets/IMG_7323.jpg" alt="Foto Saya" class="photo" />
-                    <div class="meta">
-                        <h1>Mochamad Fariz Arkan Nugraha</h1>
-                        <p class="role">Sutradara Pementasan Teater</p>
-                        <p class="location">Indonesia</p>
+
+        <section class="about container">
+            <div class="about-grid">
+                <div><span class="text-section">Tentang Saya</span></div>
+                <div>
+                    <p class="about-text">
+                        Salam Budaya! Saya Mochamad Fariz Arkan Nugraha bisa dikenal Sulak. Saya menciptakan pengalaman teater yang inovatif. 
+                        Setiap pertunjukan mencerminkan dedikasi terhadap cerita, karakter, dan visi artistik yang kuat.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects container">
+            <span class="text-section">Karya Pilihan</span>
+            <p style="margin-bottom: 30px; color: #666; font-size: 0.9rem;">(Klik pada judul untuk melihat detail)</p>
+            
+            <div class="project-list">
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="p-name">Solmera</span>
+                        <span class="p-cat">Seni Panggung / Visual</span>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-content">
+                            <p>
+                                "Solmera bercerita dunia akhir dimana di dunia tersebut kehilangan matahari, hanya orang terpilih lah yang bisa menjadi matahari. 
+                                Namun sekarang, muncul dua matahari, akhirnya terjadi dualisme kekuasaan. 
+                                <br><br>
+                                <strong>"Solmera adalah proyek Ujian Resital angkatan 2024.</strong>"
+                            </p>
+                            <img src="assets/Solmera.jpg" class="detail-img">
+                        </div>
                     </div>
                 </div>
-                <div class="actions">
-                    <button class="btn" id="download-cv">Download CV</button>
-                    <button id="dark-mode-toggle" class="dark-toggle" title="Toggle Dark Mode">
-                        <span class="emoji-icon">🌙</span>
-                    </button>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="p-name">Orkes Madun</span>
+                        <span class="p-cat">Teater Tradisi</span>
+                    </div>
+                    <div class="project-detail">
+                        <div class="detail-content">
+                            <p>
+                                "Bercerita Waska, pria tua eksentrik yang ingin keluar dari dunia kemiskinan, bersama para pengikutnya bernama Umang-umang. 
+                                Sebelum dia melaksanakan ide gilanya dia terserang penyakit mati yang menyebabkan dia lumpuh, pengikutnya sekarang berupaya menyembuhkannya.
+                                <br><br>
+                                <strong>"Umang-umang menjadi proyek Apresiasi Drama di Jurusan Diksatrasia Universitas Siliwangi.</strong>"
+                            </p>
+                            <img src="assets/Umang-umang.jpg" class="detail-img">
+                        </div>
+                    </div>
                 </div>
+
             </div>
-        </header>
+        </section>
+    </main>
 
-        <main class="container">
-            <section class="about">
-                <h2>Tentang Saya</h2>
-                <p>
-                    Salam Budaya! Hallo Saya seorang sutradara pementasan teater Saya berspesialisasi dalam menghadirkan produksi teater yang inovatif, bermakna, dan menyentuh emosi penonton. Setiap pertunjukan yang saya sutradarai mencerminkan dedikasi terhadap cerita, karakter, dan visi artistik yang kuat..
-                </p>
-                <div class="socials">
-                    <a href="mailto:farizarkn3@gmail.com" class="social-icon" title="Email">
-                        <img src="assets/img_mail.svg" alt="Email" />
-                    </a>
-                    <a href="https://instagram.com/farizarkammm" target="_blank" class="social-icon" title="Instagram">
-                        <img src="assets/img_instagram.svg" alt="Instagram" />
-                    </a>
-                    <a href="https://www.tiktok.com/@rknnnz" target="_blank" class="social-icon" title="TikTok">
-                        <img src="assets/img_tiktok.svg" alt="TikTok" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/fariz-arkan-undefined-3b2972302/" target="_blank" class="social-icon" title="LinkedIn">
-                        <img src="assets/img_linkedin.svg" alt="LinkedIn" />
-                    </a>
-                </div>
-            </section>
-
-            <section class="portfolio">
-                <h2>Mochamad Fariz Arkan Nugraha</h2>
-                <div class="projects">
-                    <article class="project">
-                        <div class="project-image">
-                            <img src="assets/Solmera.jpg" alt="Solmera" />
-                        </div>
-                        <div class="project-content">
-                            <h3>Solmera</h3>
-                            <p>Sebuah karya seni teater yang menggali kedalaman emosi manusia. Produksi ini menampilkan perpaduan sempurna antara seni panggung, musik, dan visual yang menciptakan pengalaman yang tak terlupakan bagi setiap penonton.</p>
-                            <a href="#" class="project-link">Lihat detail</a>
-                        </div>
-                    </article>
-
-                    <article class="project">
-                        <div class="project-image">
-                            <img src="assets/Umang-umang.jpg" alt="Oreks Madun: Umang-umang" />
-                        </div>
-                        <div class="project-content">
-                            <h3>Oreks Madun: Umang-umang</h3>
-                            <p>Pertunjukan teater yang menggabungkan tradisi lokal dengan interpretasi kontemporer. Menceritakan kisah yang menyentuh hati dengan pertunjukan padang yang memukau dan akting yang mendalam.</p>
-                            <a href="#" class="project-link">Lihat detail</a>
-                        </div>
-                    </article>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="container footer-content">
-                <p>© 2026 Mochamad Fariz Arkan Nugraha — Semua hak cipta dilindungi.</p>
+    <footer class="container">
+        <div class="footer-grid">
+            <div>
+                <h2 style="font-size: 2rem; margin-bottom: 20px;">Mari Berkolaborasi.</h2>
+                <p style="color: #444; font-size: 0.8rem;">© 2026 Mochamad Fariz Arkan Nugraha.</p>
             </div>
-        </footer>
-
-        <script src="js/script.js"></script>
-        <script src="js/interactive.js"></script>
-        <div id="project-modal" class="modal" aria-hidden="true">
-            <div class="modal-content">
-                <button class="modal-close" aria-label="Tutup">×</button>
-                <h3 id="modal-title">Judul Proyek</h3>
-                <p id="modal-desc">Deskripsi lengkap proyek akan muncul di sini.</p>
-                <a id="modal-link" href="#" class="project-link">Kunjungi proyek</a>
+            <div class="footer-links">
+                <a href="mailto:farizarkn3@gmail.com" class="social-link">Email ↗</a>
+                <a href="https://www.tiktok.com/@rkannnz" target="_blank" class="social-link">TikTok ↗</a>
+                <a href="https://instagram.com/farizarkammm" target="_blank" class="social-link">Instagram ↗</a>
             </div>
         </div>
-        <div id="toast" class="toast" aria-hidden="true"></div>
-    </body>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
 </html>
